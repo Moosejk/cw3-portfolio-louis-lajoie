@@ -1,0 +1,11 @@
+article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: var(--margin-thin) auto;
+  img{
+    width: 30%;
+  }
+}

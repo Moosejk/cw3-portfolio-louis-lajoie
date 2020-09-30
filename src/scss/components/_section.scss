@@ -1,0 +1,9 @@
+
+section{
+  .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  margin: var(--margin-large) 0;
+}

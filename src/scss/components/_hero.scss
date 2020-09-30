@@ -1,0 +1,17 @@
+.hero{
+  background: var(--color-bg-secondary);
+  text-align:center;
+  .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-large) var(--padding-large) 0 var(--padding-large);
+    flex-direction: column;
+  }
+  div{
+    margin: var(--margin-thin);
+  }
+  img{
+    width:50%
+  }
+}

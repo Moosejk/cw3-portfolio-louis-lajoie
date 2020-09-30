@@ -1,0 +1,27 @@
+nav{
+  background: var(--color-bg-primary);
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  li{
+    margin: var(--margin-thin);
+  }
+  img{
+    width: 50px;
+    margin: var(--margin-thin);
+  }
+  .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+

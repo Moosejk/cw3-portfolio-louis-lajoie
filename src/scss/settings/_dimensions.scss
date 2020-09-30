@@ -1,19 +1,19 @@
 
 :root{
-  --max-width:1200px;
+  --max-width:1400px;
   --min-width:335px;
 
   --padding-thin:10px;
-  --padding-large:20px;
+  --padding-large:40px;
 
   --margin-thin:10px;
-  --margin-large:20px;
+  --margin-large:40px;
 
 }
 
 //media queries breakpoint
-$vw-thin:320px;
-$vw-small:576px;
-$vw-medium:760px;
-$vw-large:992px;
-$vw-huge:var(--max-width);
+$vw-thin:375px;
+//$vw-small:576px;
+$vw-medium:768px;
+//$vw-large:992px;
+$vw-huge:1200px;

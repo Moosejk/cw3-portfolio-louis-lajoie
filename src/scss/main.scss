@@ -23,9 +23,37 @@
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
+@import "components/article";
+@import "components/hero";
+@import "components/nav";
+@import "components/section";
+@import "components/footer";
 
 
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
 
+@media screen and (min-width: $vw-medium){
+  article{
+    width: 48%;
+  }
+  nav{
+    .wrapper{
+      flex-direction: row;
+    }
+    ul{
+      width: auto;
+    }
+  }
+  .hero{
+    .wrapper{
+      flex-direction: row;
+    }
+  }
+}
 
+@media screen and (min-width: $vw-huge){
+  article{
+    width: 32%;
+  }
+}
